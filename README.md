@@ -25,7 +25,7 @@ HTML, CSS, JavaScript, Node.js, Express.js, PostgreSQL, Express Session, bcryptj
 4. Run `npm install` and `npm start`.
 5. Open `http://localhost:3000`.
 
-The initial admin is created from `ADMIN_NAME`, `ADMIN_EMAIL` and `ADMIN_PASSWORD` if that email does not exist. Change the sample credentials before deployment. Never commit `.env`.
+The initial administrator is created from `ADMIN_NAME`, `ADMIN_EMAIL` and `ADMIN_PASSWORD` if that email does not exist. Two demo accounts are also seeded automatically if they do not already exist:\n\n| Role | Email | Password |\n|---|---|---|\n| Admin | `admin.demo@helpdesk.test` | `Admin@12345` |\n| User | `user.demo@helpdesk.test` | `User@12345` |\n\nThese demo credentials are intentionally visible for internship evaluation only. Do not use them for real or sensitive data. Remove the demo seed block or change the credentials before production use. Never commit `.env`.
 
 ## Render deployment
 1. Create a PostgreSQL database in Render.
